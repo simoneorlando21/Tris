@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="613.0" maxWidth="613.0" minHeight="423.0" minWidth="423.0" prefHeight="613.0" prefWidth="423.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GamePlayPageController">
+   <children>
+      <ImageView fitHeight="667.0" fitWidth="423.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="107.0" fitWidth="207.0" layoutX="108.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/title.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="29.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/square.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="161.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/square.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="294.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/square.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="29.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/square.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="161.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/square.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="294.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/square.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="29.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/square.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="161.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/square.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="294.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/square.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgX11" fitHeight="77.0" fitWidth="77.0" layoutX="170.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/x.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgO00" fitHeight="77.0" fitWidth="83.0" layoutX="41.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/o.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="currentPlayerLabel" layoutX="129.0" layoutY="481.0" prefHeight="52.0" prefWidth="176.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgX00" fitHeight="77.0" fitWidth="77.0" layoutX="31.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/x.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button00" layoutX="29.0" layoutY="119.0" mnemonicParsing="false" onAction="#doAction00" opacity="0.03" prefHeight="101.0" prefWidth="101.0" />
+      <ImageView fx:id="imgX01" fitHeight="77.0" fitWidth="101.0" layoutX="170.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/x.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgO01" fitHeight="77.0" fitWidth="77.0" layoutX="170.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/o.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button01" layoutX="161.0" layoutY="119.0" mnemonicParsing="false" onAction="#doAction01" opacity="0.08" prefHeight="101.0" prefWidth="101.0" />
+      <ImageView fx:id="imgX02" fitHeight="77.0" fitWidth="77.0" layoutX="305.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/x.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgO02" fitHeight="77.0" fitWidth="77.0" layoutX="305.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/o.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button02" layoutX="294.0" layoutY="119.0" mnemonicParsing="false" onAction="#doAction02" opacity="0.1" prefHeight="101.0" prefWidth="101.0" />
+      <ImageView fx:id="imgX10" fitHeight="77.0" fitWidth="77.0" layoutX="41.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/x.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgO10" fitHeight="77.0" fitWidth="77.0" layoutX="41.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/o.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button10" layoutX="29.0" layoutY="240.0" mnemonicParsing="false" onAction="#doAction10" opacity="0.09" prefHeight="101.0" prefWidth="101.0" />
+      <ImageView fx:id="imgO11" fitHeight="77.0" fitWidth="77.0" layoutX="175.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/o.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgX12" fitHeight="77.0" fitWidth="77.0" layoutX="305.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/x.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgO12" fitHeight="77.0" fitWidth="77.0" layoutX="310.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/o.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button12" layoutX="294.0" layoutY="240.0" mnemonicParsing="false" onAction="#doAction12" opacity="0.11" prefHeight="101.0" prefWidth="101.0" />
+      <ImageView fx:id="imgX20" fitHeight="77.0" fitWidth="77.0" layoutX="41.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/x.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgO20" fitHeight="77.0" fitWidth="77.0" layoutX="45.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/o.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button20" layoutX="29.0" layoutY="361.0" mnemonicParsing="false" onAction="#doAction20" opacity="0.18" prefHeight="101.0" prefWidth="101.0" />
+      <ImageView fx:id="imgX21" fitHeight="77.0" fitWidth="77.0" layoutX="170.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/x.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button11" layoutX="161.0" layoutY="240.0" mnemonicParsing="false" onAction="#doAction11" opacity="0.14" prefHeight="101.0" prefWidth="101.0" />
+      <ImageView fx:id="imgO21" fitHeight="77.0" fitWidth="77.0" layoutX="175.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/o.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button21" layoutX="161.0" layoutY="361.0" mnemonicParsing="false" onAction="#doAction21" opacity="0.17" prefHeight="101.0" prefWidth="101.0" />
+      <ImageView fx:id="imgX22" fitHeight="77.0" fitWidth="77.0" layoutX="305.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/x.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgO22" fitHeight="77.0" fitWidth="77.0" layoutX="310.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../img/o.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="button22" layoutX="294.0" layoutY="361.0" mnemonicParsing="false" onAction="#doAction22" opacity="0.27" prefHeight="101.0" prefWidth="101.0" />
+   </children>
+</Pane>
