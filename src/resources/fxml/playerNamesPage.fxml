@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="613.0" maxWidth="613.0" minHeight="423.0" minWidth="423.0" prefHeight="613.0" prefWidth="423.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.PlayerNamesPageController">
+<Pane maxHeight="613.0" maxWidth="613.0" minHeight="423.0" minWidth="423.0" prefHeight="613.0" prefWidth="423.0" xmlns="http://javafx.com/javafx/8.0.241" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.PlayerNamesPageController">
    <children>
       <ImageView fitHeight="640.0" fitWidth="423.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true">
          <image>

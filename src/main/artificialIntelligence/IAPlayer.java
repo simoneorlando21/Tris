@@ -20,7 +20,7 @@ public class IAPlayer {
         //DEBUG
         //coda.add(gameTree.getRoot());
         //while (coda.size() != 0)
-        //    exploreTree();
+          //exploreTree();
         state = gameTree.getRoot();
     }
 
